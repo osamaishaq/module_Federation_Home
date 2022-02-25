@@ -1,5 +1,4 @@
-const API_SERVER =
-  "https://module-federation-server-oar21wbde-osamaishaq.vercel.app";
+const API_SERVER = "https://module-federation-server.vercel.app";
 
 export const getProducts = () =>
   fetch(`${API_SERVER}/products`).then((res) => res.json());
